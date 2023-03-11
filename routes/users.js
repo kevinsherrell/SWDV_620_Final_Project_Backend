@@ -98,7 +98,7 @@ router.post('/login', async (req, res)=>{
         })
     }
     const userData = {
-        id: foundUser._id,
+        _id: foundUser._id,
         email: foundUser.email
     }
 
